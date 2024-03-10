@@ -1,6 +1,7 @@
 import express from "express";
 import path from 'path';
 const __dirname = path.resolve();
+console.log(__dirname)
 // import { fileURLToPath } from "url";
 // import {dirname} from "path";
 import upload from "express-fileupload"
